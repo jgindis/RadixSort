@@ -5,5 +5,9 @@ public class Radix {
     return var;
   }
 
+  public static int length(int n) {
+      
+  }
+
 
 }
