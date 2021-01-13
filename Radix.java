@@ -6,7 +6,8 @@ public class Radix {
   }
 
   public static int length(int n) {
-      
+    if (n == 0) return 1;
+    return (int)(Math.log10(Math.abs(n)) + 1);
   }
 
 
