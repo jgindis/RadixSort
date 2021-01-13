@@ -10,8 +10,16 @@ public class Radix {
     return (int)(Math.log10(Math.abs(n)) + 1);
   }
 
-  public static void merge(SortableLinkedList original,
-    
+  public static void merge(SortableLinkedList original, SortableLinkedList[] buckets) {
+
+  }
+
+  public static void radixSortSimple(SortableLinkedList data) {
+
+  }
+
+  public static void radixSort(SortableLinkedList data) {
+
   }
 
 }
