@@ -45,7 +45,7 @@ public class Radix {
         SortableLinkedList poss = new SortableLinkedList();
         while (data.size() > 0 == true) {
             int var = data.remove(0);
-            if (var < 0) negs.add(0, value);
+            if (var < 0) negs.add(0, var);
             else poss.add(var);
         }
         data.extend(negs);
